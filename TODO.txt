@@ -1,3 +1,7 @@
 TODO: remove the VC circles near the links with inserted javascript script to "purify" list results
+
 assign every list value a number according to what the number on the website is
+
 link the conjnumber with the value on the list to grab the correct conjuguemos link
+
+eventually automate signing in, might be difficult due to the picture to text captcha

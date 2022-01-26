@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
-import os, json, time
+import os, time
 my_secret = os.environ['googlepassword']
 ready = False
 conjnumber = 0
@@ -65,5 +65,8 @@ if ready == True:
 for matched_element in matched_elements:
     text = matched_element.text
     texts.append(text)
-print(texts[0])
-  
+
+#assign 
+amog = texts[conjnumber - 1]
+amogstripped = amog.strip("VC").strip()
+print(amogstripped)
